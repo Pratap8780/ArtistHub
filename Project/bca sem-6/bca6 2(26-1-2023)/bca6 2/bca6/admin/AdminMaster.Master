@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="bca6.admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../jQuery/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <link href="../fontawesome/css/all.css" rel="stylesheet" />
+    <style>
+        .dropdown-toggle::after {
+            display: none;
+        }
+        /*background-color: rgba(0,71,160,1)*/
+        .dropstart .dropdown-toggle::before {
+            display: none;
+        }
+        .dropstart .dropdown-menu[data-bs-popper] {
+            background-color: rgba(0,0,0,0.5);
+        }
+        .dropdown-item {
+            color:#FFF;
+         }
+       .navbar-nav .dropdown-menu{
+    background-color: rgba(0,0,0,0.5) !important;
+    
+}
+        body {
+            background-color:#F5E5A2;
+            background-size:cover;       
+            font-family: Georgia, serif;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" style="background-color: rgba(0,0,0,0.4) !important">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ArtistHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="AdminHome.aspx">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="AddArt.aspx">Add Art</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="AllOrders.aspx">All Orderd</a>
+                    </li>
+                       <li class="nav-item">
+                        <a class="nav-link" href="DisplayArts.aspx">Display Art</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light rounded-circle" type="submit"><i class="fa fa-search"></i></button>
+                    <div class="dropdown dropstart">
+                        <button class="btn btn-outline-light rounded-circle mx-2 dropdown-toggle" type="submit" id="navbarDropdown1" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true">
+                            <i class="fa fa-user"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="../user login.aspx">Login</a>
+                             <a class="dropdown-item" href="AdminChangePassword.aspx">Change password
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

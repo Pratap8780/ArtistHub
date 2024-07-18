@@ -1,0 +1,169 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserMaster.master.cs" Inherits="bca6.user.UserMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../jQuery/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <link href="../fontawesome/css/all.css" rel="stylesheet" />
+
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="../css/magnific-popup.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../css/font-awesome.css" />
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="../css/jquery.fancybox.min.css" />
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="../css/themify-icons.css" />
+    <!-- Jquery Ui -->
+    <link rel="stylesheet" href="../css/jquery-ui.css" />
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="../css/niceselect.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="../css/animate.css" />
+    <!-- Flex Slider CSS -->
+    <link rel="stylesheet" href="../css/flex-slider.min.css" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../css/owl-carousel.css" />
+    <!-- Slicknav -->
+    <link rel="stylesheet" href="../css/slicknav.min.css" />
+
+    <!-- Eshop StyleSheet -->
+    <%--<link rel="stylesheet" href="../css/reset.css" />--%>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <style>
+        .dropdown-toggle::after {
+            display: none;
+        }
+        /*background-color: rgba(0,71,160,1)*/
+        .dropstart .dropdown-toggle::before {
+            display: none;
+        }
+
+        .dropstart .dropdown-menu[data-bs-popper] {
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .dropdown-item {
+            color: #FFF;
+        }
+
+        .navbar-nav .dropdown-menu {
+            background-color: rgba(0,0,0,0.5) !important;
+        }
+
+        body {
+            background-color:#F5E5A2;
+            background-size: cover;
+            font-family: Georgia, serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" style="background-color: rgba(0,0,0,0.4) !important">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="UserHome.aspx">ArtistHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-start">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="UserHome.aspx">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ArtInfo.aspx">Art Info</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Art Type
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="ArtInfo.aspx?type=dot">Dot Bookmark Mandala</a></li>
+                            <li><a class="dropdown-item" href="ArtInfo.aspx?type=complex">Complex Ornamental</a></li>
+                            <li><a class="dropdown-item" href="ArtInfo.aspx?type=gelly">Gelly Roll Mandala</a></li>
+                            <li><a class="dropdown-item" href="ArtInfo.aspx?type=3d">3D Mandala</a></li>
+                            <li><a class="dropdown-item" href="ArtInfo.aspx?type=freestyle">Free Style Mandala</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="MyOrders.aspx">My Orders</a>
+                    </li>
+                </ul>
+                <form class="d-flex  float-end">
+                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light rounded-circle" type="submit"><i class="fa fa-search"></i></button>
+                    <div class="dropdown dropstart">
+                        <button class="btn btn-outline-light rounded-circle mx-2 dropdown-toggle" type="submit" id="navbarDropdown1" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true">
+                            <i class="fa fa-user"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown1">
+                         
+                              <a class="dropdown-item" href="../user registration.aspx">Login</a>
+                              <a class="dropdown-item" href="chengepassword.aspx">Change password
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+
+
+    <!-- Jquery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Color JS -->
+    <script src="js/colors.js"></script>
+    <!-- Slicknav JS -->
+    <script src="js/slicknav.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="js/owl-carousel.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="js/magnific-popup.js"></script>
+    <!-- Fancybox JS -->
+    <script src="js/facnybox.min.js"></script>
+    <!-- Waypoints JS -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- Countdown JS -->
+    <script src="js/finalcountdown.min.js"></script>
+    <!-- Nice Select JS -->
+    <script src="js/nicesellect.js"></script>
+    <!-- Ytplayer JS -->
+    <script src="js/ytplayer.min.js"></script>
+    <!-- Flex Slider JS -->
+    <script src="js/flex-slider.js"></script>
+    <!-- ScrollUp JS -->
+    <script src="js/scrollup.js"></script>
+    <!-- Onepage Nav JS -->
+    <script src="js/onepage-nav.min.js"></script>
+    <!-- Easing JS -->
+    <script src="js/easing.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+</body>
+</html>

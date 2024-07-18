@@ -1,0 +1,40 @@
+D:\BCA Sem 5\Project\project\bca6\bca6\bin\bca6.dll
+D:\BCA Sem 5\Project\project\bca6\bca6\bin\bca6.pdb
+D:\BCA Sem 5\Project\project\bca6\bca6\obj\Debug\bca6.dll
+D:\BCA Sem 5\Project\project\bca6\bca6\obj\Debug\bca6.pdb
+D:\BCA Sem 5\Project\project\bca6\bca6\obj\Debug\bca6.csprojResolveAssemblyReference.cache
+D:\project\bca6\bca6\bin\bca6.dll
+D:\project\bca6\bca6\bin\bca6.pdb
+D:\project\bca6\bca6\obj\Debug\bca6.csprojResolveAssemblyReference.cache
+D:\project\bca6\bca6\obj\Debug\bca6.dll
+D:\project\bca6\bca6\obj\Debug\bca6.pdb
+D:\bca6\bca6\bin\bca6.dll
+D:\bca6\bca6\bin\bca6.pdb
+D:\bca6\bca6\obj\Debug\bca6.csprojResolveAssemblyReference.cache
+D:\bca6\bca6\obj\Debug\bca6.dll
+D:\bca6\bca6\obj\Debug\bca6.pdb
+D:\project\bca6 2\bca6\bca6\bin\bca6.dll
+D:\project\bca6 2\bca6\bca6\bin\bca6.pdb
+D:\project\bca6 2\bca6\bca6\obj\Debug\bca6.dll
+D:\project\bca6 2\bca6\bca6\obj\Debug\bca6.pdb
+D:\project\bca6 2\bca6\bca6\obj\Debug\bca6.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Downloads\bca6 10-01-2023 (1)\bca6 2\bca6\bin\bca6.dll
+C:\Users\ASUS\Downloads\bca6 10-01-2023 (1)\bca6 2\bca6\bin\bca6.pdb
+C:\Users\ASUS\Downloads\bca6 10-01-2023 (1)\bca6 2\bca6\obj\Debug\bca6.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Downloads\bca6 10-01-2023 (1)\bca6 2\bca6\obj\Debug\bca6.dll
+C:\Users\ASUS\Downloads\bca6 10-01-2023 (1)\bca6 2\bca6\obj\Debug\bca6.pdb
+D:\bca sem-6\bca6 2\bca6\bin\bca6.dll
+D:\bca sem-6\bca6 2\bca6\bin\bca6.pdb
+D:\bca sem-6\bca6 2\bca6\obj\Debug\bca6.csprojResolveAssemblyReference.cache
+D:\bca sem-6\bca6 2\bca6\obj\Debug\bca6.dll
+D:\bca sem-6\bca6 2\bca6\obj\Debug\bca6.pdb
+D:\bca sem-6\bca6 2(26-1-2023)\bca6 2\bca6\bin\bca6.dll
+D:\bca sem-6\bca6 2(26-1-2023)\bca6 2\bca6\bin\bca6.pdb
+D:\bca sem-6\bca6 2(26-1-2023)\bca6 2\bca6\obj\Debug\bca6.csprojResolveAssemblyReference.cache
+D:\bca sem-6\bca6 2(26-1-2023)\bca6 2\bca6\obj\Debug\bca6.dll
+D:\bca sem-6\bca6 2(26-1-2023)\bca6 2\bca6\obj\Debug\bca6.pdb
+D:\56--odedara pratap punjabhai--Artist hub--asp.net\Project\bca sem-6\bca6 2(26-1-2023)\bca6 2\bca6\bin\bca6.dll
+D:\56--odedara pratap punjabhai--Artist hub--asp.net\Project\bca sem-6\bca6 2(26-1-2023)\bca6 2\bca6\bin\bca6.pdb
+D:\56--odedara pratap punjabhai--Artist hub--asp.net\Project\bca sem-6\bca6 2(26-1-2023)\bca6 2\bca6\obj\Debug\bca6.csprojResolveAssemblyReference.cache
+D:\56--odedara pratap punjabhai--Artist hub--asp.net\Project\bca sem-6\bca6 2(26-1-2023)\bca6 2\bca6\obj\Debug\bca6.dll
+D:\56--odedara pratap punjabhai--Artist hub--asp.net\Project\bca sem-6\bca6 2(26-1-2023)\bca6 2\bca6\obj\Debug\bca6.pdb
